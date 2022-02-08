@@ -7,7 +7,7 @@ let handler = async (m, { conn }) => {
 ╠➥ *Permanen* : *Rp 40000*
 ╠➥ *Owner* :   *Rp 30000*/bln
 ╠➥ *Nomer Gopay & pulsa* : 
-║    085730903853
+║    085792429140
 ╠═〘 PEMBAYARAN 〙 ═
 ╠➥ Dana Dan Pulsa
 ║

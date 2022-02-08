@@ -22,8 +22,8 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ╠➥ *Uptime:* ${uptime}
 ║
 ╠═〘 DONASI 〙 ═
-╠➥ GOPAY [6285730903853]
-╠➥ PULSA [6285730903853]
+╠➥ GOPAY [085792429140]
+╠➥ PULSA [085792429148]
 ║
 ║
 ║${readMore}
