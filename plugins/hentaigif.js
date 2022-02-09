@@ -6,7 +6,7 @@ let handler = async (m, { conn}) => {
 m.reply(wait)
 if (!db.data.chats[m.chat].nsfw && m.isGroup) throw global.nsfw
   try {
-  let res = await fetch(`https://api.xteam.xyz/randomimage/hentaigif?apikey=${xteamkey}`)
+  let res = await fetch(`https://api-alphabot.herokuapp.com/api/nsfw/v2/hentai_gif?apikey=Alphabot`)
   let json = await res.json()
   let { 
 result
