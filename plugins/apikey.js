@@ -13,7 +13,7 @@ let handler = async m => m.reply(`
 ┣➥ *ZeksApi* = PmzFe9Hq4xYdwha6pxiXd9jgLnh
 ┣➥ *LeysKey* = MNQYOVSL
 ┣➥ *apixteam* = 7415bc4287ad5ca8
-┣➥ *apiKey* = 7ed90d537ab5edddb6ba6465
+┣➥ *apiKey* = bca5b104e231d4708ce6dfa8
 ┣➥ *LolKey* = RFK-Rey
 ┣➥ *odckey* = onlygay
 ┣➥ *onlydev* = PunyaIkyAds
