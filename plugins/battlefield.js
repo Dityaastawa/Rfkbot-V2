@@ -1,7 +1,7 @@
 let handler = async (m, { conn, text }) => {
 if (!text) throw '_Text nya mana tod?_'
 let [kiri, kanan] = text.split('|')
-await conn.sendFile(m.chat, global.API('https://api.lolhuman.xyz', '/api/photooxy2/battlefield4', {
+await conn.sendFile(m.chat, global.API('https://api.lolhuman.xyz/api/photooxy2/battlefield4?apikey=bca5b104e231d4708ce6dfa8&text1=LoL&text2=Human', {
  text1: kiri,
  text2: kanan,
  theme: 'battlefield4',
