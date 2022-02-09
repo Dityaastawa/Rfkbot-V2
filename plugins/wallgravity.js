@@ -3,7 +3,7 @@ let handler = async (m, { conn, args }) => {
    response = args.join(' ').split('|')
   if (!args[0]) throw 'Masukkan Parameter'
   m.reply('Sedang Diproses...')
-  let res = await fetch(`http://api.lolhuman.xyz/api/textprome2/wallgravity?apikey=rey2k21&text1=${response[0]}&text2=${response[1]}`)
+  let res = await fetch(`https://api.lolhuman.xyz/api/textprome2/wallgravity?apikey=bca5b104e231d4708ce6dfa8&text1=LoL&text2=Human`)
   conn.sendFile(m.chat, res, 'nama.jpg', `Nih Kakk`, m, false)
 }
 handler.help = ['wallgravity'].map(v => v + ' <teks|teks>')
