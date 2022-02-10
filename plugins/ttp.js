@@ -5,7 +5,7 @@ const fetch = require('node-fetch')
 let handler = async (m, { conn, text, command }) => {
   let teks = text ? text : m.quoted && m.quoted.text ? m.quoted.text : m.text
   if (/^ttp1?$/i.test(command)) {
-    let stiker = await sticker(null, global.API('xteam', '/ttp', { file: '', text: teks }), global.packname, global.author)
+    let stiker = await sticker(null, global.API('bca5b104e231d4708ce6dfa8', '/ttp', { file: '', text: teks }), global.packname, global.author)
     if (stiker) return await conn.sendMessage(m.chat, stiker, MessageType.sticker, {
       quoted: m
     })
